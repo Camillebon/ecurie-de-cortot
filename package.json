@@ -6,7 +6,6 @@
   "scripts": {
     "sass": "sass --watch ./sass/scss/style.scss:./public/css/style.css"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Camillebon/ecurie-de-cortot.git"
@@ -16,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Camillebon/ecurie-de-cortot/issues"
   },
-  "homepage": "https://github.com/Camillebon/ecurie-de-cortot#readme"
+  "homepage": "https://github.com/Camillebon/ecurie-de-cortot#readme",
+  "dependencies": {
+    "sass": "^1.51.0"
+  }
 }
