@@ -247,4 +247,44 @@ a:hover {
   line-height: 40px;
 }
 
+.footer {
+  background-color: rgba(0, 0, 0, 0.792);
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  height: 700px;
+}
+.footer__horaire {
+  text-align: left;
+  color: white;
+  line-height: 30px;
+  border-right: 2px white solid;
+  padding: 10px 190px 30px 30px;
+  padding-right: 200px;
+}
+.footer__mail {
+  text-align: left;
+  color: white;
+  line-height: 50px;
+  font-size: 30px;
+  border: 1px white solid;
+  padding: 30px 190px 30px 30px;
+}
+
+.facebook {
+  height: 80px;
+  background-image: url(/public/images/index/photoFB.png);
+  background-color: blue;
+  border-radius: 15px;
+}
+
+.insta {
+  height: 110px;
+  background-image: url(/public/images/index/photoInsta.png);
+  background-color: transparent;
+}
+
 /*# sourceMappingURL=style.css.map */
