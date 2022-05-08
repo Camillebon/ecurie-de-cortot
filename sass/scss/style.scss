@@ -148,13 +148,106 @@ a{
             }
         }
     }
-    
     } 
-        
-   
-    
+    }
+.indication{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    position: relative;
+    &__txt{
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.309);
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    width: 400px;
+    font-size: 15px;
+    }    
+    }
+.ChoiceOfCategories{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    &__container{
+        background-color: rgba(0, 0, 0, 0.767);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 80%; 
+        border-radius: 1vw;
+        height: 225px;
+        &__content{
+            border-radius: 20px;
+            height: 200px;
+            width: 18%;    
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-size: cover;
+            background-position: center;
+            &__title{ 
+                font-size: 15px;
+                color: white;
+            }
+            &__txt{
+                display: none;    
+            }
+            &.poney{
+                background-image: url(/public/images/index/photoPoney2.jpg);
+
+            }
+            &.centre{
+                background-image: url(/public/images/index/phototictac.JPG);
+            }
+            &.balade{
+                background-image: url(/public/images/index/photobalade-compressed.jpg);
+            }
+            &.pension{
+                background-image: url(/public/images/index/photoBOX-compressed.jpg);
+            }
+            &.equitherapie{
+                background-image: url(/public/images/index/photoEquiterapie.jpg);
+            }
+        }       
+      }
+    }
+   .newsletter{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    &__container{
+        background-color: rgba(0, 0, 0, 0.823);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: space-evenly;
+        width: 30%; 
+        border-radius: 2vw;
+        height: 250px;
+        font-size: 15px;
+        color: white;
+        line-height: 40px;
 
     }
+
+   }
+
+   
+
 
 
 
