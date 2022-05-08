@@ -1,3 +1,7 @@
+html {
+  width: 100%;
+}
+
 body, * {
   padding: 0;
   margin: 0;
@@ -13,8 +17,24 @@ body {
   height: 100%;
 }
 
-.backgrounfFixed {
+main {
+  width: 100%;
+}
+
+.backgroundFixed {
   position: fixed;
+  top: 0px;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+#img {
+  object-fit: cover;
+  object-position: center;
+  background-repeat: repeat-y;
+  width: 100%;
+  height: 100%;
 }
 
 .navbar {
@@ -24,11 +44,12 @@ body {
   height: 60px;
 }
 .navbar__container {
+  border-bottom: 2px solid rgb(255, 255, 255);
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  background-color: rgba(0, 0, 0, 0.492);
+  background-color: rgba(0, 0, 0, 0.658);
   width: 100%;
   height: 100%;
 }
@@ -37,15 +58,98 @@ body {
 }
 
 a {
-  color: white;
+  color: rgba(255, 255, 255, 0.786);
   text-decoration: underline;
   text-decoration-color: transparent;
   transition: all 0.2s linear;
 }
 a:hover {
-  text-decoration-color: white;
+  text-decoration-color: rgb(255, 255, 255);
   transition: all 0.2s linear;
-  font-size: 20px;
+  font-size: 25px;
+}
+
+.HomepageAnimation {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+  position: relative;
+}
+.HomepageAnimation__animation {
+  background-color: rgba(255, 255, 255, 0.412);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  border-radius: 4vw;
+  height: 35vw;
+  box-shadow: 0px 20px 20px black;
+}
+.HomepageAnimation__animation__image {
+  width: 70%;
+  object-fit: cover;
+  max-height: 400px;
+  position: relative;
+  top: 20%;
+  z-index: 1;
+}
+.HomepageAnimation__animation__txt {
+  font-size: 5vw;
+  color: white;
+  text-shadow: 0.5vw 0.5vw 0.4vw rgb(0, 0, 0);
+  position: relative;
+  bottom: 110px;
+}
+
+.maps {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+  position: relative;
+  flex-direction: column;
+  height: 620px;
+  overflow: hidden;
+}
+.maps__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+}
+.maps__container:hover .maps__container__in__content {
+  height: 0px;
+  opacity: 0;
+  transition: all 0.3s linear;
+  overflow: hidden;
+}
+.maps__container__iframe {
+  width: 100%;
+  border-radius: 2vw;
+  min-height: 35vw;
+  box-shadow: 0px 20px 20px black;
+}
+.maps__container__in {
+  min-height: 105px;
+}
+.maps__container__in__content {
+  overflow: hidden;
+  transition: all 0.3s linear;
+  background-color: rgba(113, 108, 108, 0.74);
+  border-radius: 20px;
+  position: relative;
+  bottom: 160px;
+  padding: 20px;
+  height: 105px;
+}
+.maps__container__in__content__txt {
+  text-align: center;
+  font-size: 19px;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
