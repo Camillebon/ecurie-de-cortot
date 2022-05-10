@@ -21,6 +21,7 @@ main {
   width: 100%;
 }
 
+/* background image */
 .backgroundFixed {
   position: fixed;
   top: 0px;
@@ -37,6 +38,7 @@ main {
   height: 100%;
 }
 
+/* nav bar */
 .navbar {
   position: absolute;
   top: 0px;
@@ -69,6 +71,7 @@ a:hover {
   font-size: 25px;
 }
 
+/* home page animation */
 .HomepageAnimation {
   width: 100%;
   display: flex;
@@ -104,6 +107,7 @@ a:hover {
   bottom: 110px;
 }
 
+/* google maps  */
 .maps {
   width: 100%;
   display: flex;
@@ -152,6 +156,7 @@ a:hover {
   color: white;
 }
 
+/* indication */
 .indication {
   width: 100%;
   display: flex;
@@ -173,6 +178,7 @@ a:hover {
   font-size: 15px;
 }
 
+/* choice of categories */
 .ChoiceOfCategories {
   width: 100%;
   display: flex;
@@ -225,6 +231,7 @@ a:hover {
   background-image: url(/public/images/index/photoEquiterapie.jpg);
 }
 
+/* newsletter */
 .newsletter {
   width: 100%;
   display: flex;
@@ -247,6 +254,7 @@ a:hover {
   line-height: 40px;
 }
 
+/* footer */
 .footer {
   background-color: rgba(0, 0, 0, 0.792);
   width: 100%;

@@ -17,6 +17,7 @@ body{
 main{
     width: 100%;
 }
+/* background image */
 .backgroundFixed{
     position: fixed;
     top: 0px;
@@ -32,6 +33,7 @@ main{
     height: 100%;
     
 }
+/* nav bar */
 .navbar{
     position: absolute;
     top: 0px;
@@ -64,6 +66,7 @@ a{
         font-size: 25px;
     }
 }
+/* home page animation */
 .HomepageAnimation{
     width: 100%;
     display: flex;
@@ -98,6 +101,7 @@ a{
         }
     }
 }
+/* google maps  */
 .maps{
     width: 100%;
     display: flex;
@@ -150,6 +154,7 @@ a{
     }
     } 
     }
+/* indication */
 .indication{
     width: 100%;
     display: flex;
@@ -170,6 +175,7 @@ a{
         font-size: 15px;
     }    
 }
+/* choice of categories */
 .ChoiceOfCategories{
     width: 100%;
     display: flex;
@@ -222,6 +228,7 @@ a{
         }       
       }
     }
+/* newsletter */
 .newsletter{
     width: 100%;
     display: flex;
@@ -243,6 +250,7 @@ a{
         line-height: 40px;
     }
 }
+/* footer */
 .footer{
     background-color: rgba(0, 0, 0, 0.792);
     width: 100%;
