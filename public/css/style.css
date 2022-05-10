@@ -44,7 +44,7 @@ main {
   height: 60px;
 }
 .navbar__container {
-  border-bottom: 2px solid rgb(255, 255, 255);
+  border-bottom: 2px solid white;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -64,7 +64,7 @@ a {
   transition: all 0.2s linear;
 }
 a:hover {
-  text-decoration-color: rgb(255, 255, 255);
+  text-decoration-color: white;
   transition: all 0.2s linear;
   font-size: 25px;
 }
@@ -99,7 +99,7 @@ a:hover {
 .HomepageAnimation__animation__txt {
   font-size: 5vw;
   color: white;
-  text-shadow: 0.5vw 0.5vw 0.4vw rgb(0, 0, 0);
+  text-shadow: 0.5vw 0.5vw 0.4vw black;
   position: relative;
   bottom: 110px;
 }
@@ -276,15 +276,12 @@ a:hover {
 
 .facebook {
   height: 80px;
-  background-image: url(/public/images/index/photoFB.png);
   background-color: blue;
   border-radius: 15px;
 }
 
 .insta {
   height: 110px;
-  background-image: url(/public/images/index/photoInsta.png);
-  background-color: transparent;
 }
 
 /*# sourceMappingURL=style.css.map */
